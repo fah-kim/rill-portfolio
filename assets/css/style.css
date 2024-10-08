@@ -45,6 +45,85 @@
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
 
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .text-center {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
 /* CUSTOM RESETS
 ================================================== */
 a {
@@ -137,7 +216,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: black;
 }
@@ -241,10 +320,12 @@ html, body {
 }
 
 .hero h1 {
-    font-size: 46px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 400;
     margin: 0 0 15px;
     text-transform: uppercase;
+    font-family: 'Bebas Neue',sans-serif;
+    font-style: normal;
 }
 
 .job-title {
@@ -265,6 +346,11 @@ html, body {
     background-color: #b1dcfc;
     z-index: 1;
 }
+
+.site-main p {
+    font-size: 17px;
+    font-weight: 400;
+}
 /* site-section */
 .site-section {
    padding-top: 120px;
@@ -279,6 +365,9 @@ html, body {
 
 .img-lines {
     margin: 15px 0 40px;
+}
+.img-lines-skill {
+    margin: 5px;
 }
 
 .site-section p {
@@ -296,8 +385,7 @@ html, body {
 
 .skill h4 {
     font-size: 24px;
-    text-transform: uppercase;
-    margin: 0 0 15px;
+    margin: 0 0 10px;
 }
 
 .progress {
